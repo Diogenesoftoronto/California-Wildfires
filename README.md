@@ -1,4 +1,4 @@
-# California-Wildfires
+# California Wildfires
 
 **Abstract**
 
