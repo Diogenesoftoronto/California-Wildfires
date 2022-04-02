@@ -16,8 +16,8 @@ def str_date(year, month):
     
     month = str(int(month))
     if len(month) == 1:
-        month = '0'+ month
-    return f'{str(int(year))}-{month}-01'
+        month = f'0{month}'
+    return f'{int(year)}-{month}-01'
 
 
 # In[4]:
