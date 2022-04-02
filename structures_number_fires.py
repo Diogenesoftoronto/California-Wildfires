@@ -5,7 +5,7 @@ import pandas as pd
 
 # In[2]:
 fires = pd.read_csv('California_Fire_2013_2019.csv')
-fires['Year'] = fires.apply(lambda row: str(row['Started'])[0:4], axis = 1)
+fires['Year'] = fires.apply(lambda row: str(row['Started'])[:4], axis = 1)
 major = fires[fires['MajorIncident'] == True]
 
 
